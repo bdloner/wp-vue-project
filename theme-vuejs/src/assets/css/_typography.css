@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'cloud-bold';
+  src: url('./fonts/Cloud-Bold.eot');
+  src: url('./fonts/Cloud-Bold.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/Cloud-Bold.woff2') format('woff2'),
+      url('./fonts/Cloud-Bold.woff') format('woff'),
+      url('./fonts/Cloud-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'cloud-light';
+  src: url('./fonts/Cloud-Light.eot');
+  src: url('./fonts/Cloud-Light.eot?#iefix') format('embedded-opentype'),
+      url('./fonts/Cloud-Light.woff2') format('woff2'),
+      url('./fonts/Cloud-Light.woff') format('woff'),
+      url('./fonts/Cloud-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  font-size: 1.3rem;
+  font-family: 'cloud-light';
+}

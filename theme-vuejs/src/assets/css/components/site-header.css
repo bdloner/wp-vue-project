@@ -1,0 +1,19 @@
+.site-header {
+  background-color: #151415;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+}
+
+.menu-bar-desktop {
+  width: 70%;
+}
+
+.menu-bar-desktop-ul{
+  display: flex;
+}
+
+.menu-bar-desktop-li {
+  flex: 1;
+  list-style: none;
+}
